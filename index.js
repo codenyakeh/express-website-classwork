@@ -3,15 +3,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 
 const loginRequestHandler = (req, res) => {
-//   let body = "";
-//   req.on("data", (chunk) => {
-//     body += chunk;
-//   });
 
-//   req.on("end", () => {
-//     //parse with regEx
-//     console.log(body);
-//   });
 console.log(req.body.email)
 console.log(req.body.password)
   res.send("successful");
