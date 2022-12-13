@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "name": "express-website-class-exercise",
+  "version": "1.0.0",
+  "description": "This Is A classwork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "author": "Emmanuel N Gbetu",
+  "license": "ISC"
+}
